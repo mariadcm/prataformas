@@ -21,6 +21,11 @@ public class GameManager : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("GUI", LoadSceneMode.Additive);
     }
 }
+    
+    
+    
+   
